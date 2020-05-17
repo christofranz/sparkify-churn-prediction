@@ -1,22 +1,48 @@
-# sparkify-churn-prediction
-MIT License
+# Sparkify Churn Prediction
 
-Copyright (c) 2020 Christoph Franzke
+### Table of Contents
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Descriptions](#files)
+4. [Results](#results)
+5. [Licensing](#licensing)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Installation<a name="installation"></a>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You will need the standard data science libraries found in the Anaconda distribution of Python. Especially, the following packages are required:
+
+- NumPy
+- Pandas
+- Matplotlib
+
+Additionally, PySpark needs to be installed what can be done with `pip install pyspark`.
+
+## Project Motivation<a name="motivation"></a>
+
+This project is the capstone project of Udacity's Data Scientiest Nanodegree. The goal of this project is to apply efficient data manipulations on large data and gather experience with Sparks Machine Learning API to build and tune models. For this Udacity provided data from a virtual company called Sparkify which is used to predict churn and run all development steps on a cluster (e.g. from IBM Watson or AWS).
+  
+Predicting churn rates is an important problem for companies which business model is based on subscriptions. If the company figures out why and which customers might churn, they can conduct counter measures to try to keep the customer with their company.
+
+## File Descriptions <a name="files"></a>
+
+The most important files in this repository:
+
+* `Sparkify_data_analysis.ipynb` - This jupyter notebook contains the loading and first analysis of the mini subset of the data. The data is inspected and differences between churned and not churned users illustrated.
+
+* `Sparkify_feature_importance.py` - This jupyter notebook contains the feature engineering and feature selection. This is the basis for building the model.
+
+* `Sparkify_model.py` - This jupyter notebook contains building machine learning models for churn prediction and the final evaluations.
+
+* ...
+
+## Results<a name="results"></a>
+
+The main findings of the code can be found at the ...
+
+### Screenshots
+
+## Licensing, Authors and Acknowledgements<a name="licensing"></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Must give credit to Udacity for setting up this capstone project and providing the data. But also Rahul Agarwal for the reference for the implemented [feature selection algorithms](https://towardsdatascience.com/the-5-feature-selection-algorithms-every-data-scientist-need-to-know-3a6b566efd2).
