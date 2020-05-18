@@ -1,0 +1,63 @@
+,Feature,Pearson,RFE,Logistics,Random Forest,LightGBM,Total
+1,last_ts,True,True,True,True,True,5
+2,duration,True,True,True,True,True,5
+21,music_days,True,True,True,False,True,4
+55,Thumbs Down_per_log,True,True,True,True,False,4
+36,Submit Upgrade_per_day,True,True,True,True,False,4
+49,NextSong_per_log,True,True,True,True,False,4
+24,Add Friend_per_day,True,True,True,False,True,4
+3,About,True,True,True,False,True,4
+40,music_days_per_log,False,True,True,True,False,3
+22,music_days_per_day,True,False,False,True,True,3
+37,Thumbs Down_per_day,True,False,True,True,False,3
+15,Submit Downgrade,False,True,True,False,True,3
+12,Roll Advert,False,True,True,False,True,3
+29,Home_per_day,True,True,False,True,False,3
+28,Help_per_day,True,True,True,False,False,3
+6,Downgrade,False,True,True,False,True,3
+5,Add to Playlist,False,True,True,False,True,3
+59,sessions_per_day,True,False,False,True,False,2
+60,ratio_music_days,True,False,False,True,False,2
+20,avg_length,False,False,True,False,True,2
+57,Upgrade_per_log,False,True,True,False,False,2
+19,Upgrade,False,True,False,False,True,2
+38,Thumbs Up_per_day,True,False,True,False,False,2
+18,Thumbs Up,True,False,False,False,True,2
+17,Thumbs Down,False,True,False,False,True,2
+16,Submit Upgrade,False,True,False,False,True,2
+34,Settings_per_day,True,False,False,True,False,2
+33,Save Settings_per_day,False,True,True,False,False,2
+13,Save Settings,False,False,True,False,True,2
+32,Roll Advert_per_day,True,False,False,True,False,2
+48,Logout_per_log,False,True,True,False,False,2
+30,Logout_per_day,True,True,False,False,False,2
+46,Help_per_log,False,True,True,False,False,2
+8,Help,False,False,True,False,True,2
+7,Error,True,False,False,False,True,2
+44,Downgrade_per_log,False,True,True,False,False,2
+4,Add Friend,True,False,False,False,True,2
+41,About_per_log,False,True,True,False,False,2
+0,log_counts,False,False,False,False,True,1
+61,like_ratio,False,False,False,True,False,1
+39,Upgrade_per_day,False,False,False,True,False,1
+14,Settings,False,False,False,False,True,1
+50,Roll Advert_per_log,True,False,False,False,False,1
+31,NextSong_per_day,True,False,False,False,False,1
+11,NextSong,False,False,False,False,True,1
+10,Logout,False,False,False,False,True,1
+47,Home_per_log,False,False,False,True,False,1
+9,Home,False,False,False,False,True,1
+26,Downgrade_per_day,True,False,False,False,False,1
+25,Add to Playlist_per_day,True,False,False,False,False,1
+23,About_per_day,False,False,False,False,True,1
+58,number_sessions,False,False,False,False,False,0
+56,Thumbs Up_per_log,False,False,False,False,False,0
+54,Submit Upgrade_per_log,False,False,False,False,False,0
+53,Submit Downgrade_per_log,False,False,False,False,False,0
+35,Submit Downgrade_per_day,False,False,False,False,False,0
+52,Settings_per_log,False,False,False,False,False,0
+51,Save Settings_per_log,False,False,False,False,False,0
+45,Error_per_log,False,False,False,False,False,0
+27,Error_per_day,False,False,False,False,False,0
+43,Add to Playlist_per_log,False,False,False,False,False,0
+42,Add Friend_per_log,False,False,False,False,False,0
