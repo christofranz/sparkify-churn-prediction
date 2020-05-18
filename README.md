@@ -2,13 +2,13 @@
 
 ### Table of Contents
 
-1. [Installation](#installation)
+1. [Installation and Instructions](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
 4. [Results](#results)
 5. [Licensing](#licensing)
 
-## Installation<a name="installation"></a>
+## Installation and Instructions<a name="installation"></a>
 
 You will need the standard data science libraries found in the Anaconda distribution of Python. Especially, the following packages are required:
 
@@ -17,6 +17,8 @@ You will need the standard data science libraries found in the Anaconda distribu
 - Matplotlib
 
 Additionally, PySpark needs to be installed what can be done with `pip install pyspark`.
+  
+In order to run the notebooks on the mini subset of the data, you need to unzip the files from `data/sparkify-event-data.zip` into the same folder. By default the notebooks will run on `mini_sparkify_event_data.json`. Feel free to adapt the loading parts and make use of the `medium-sparkify-event-data.json` that was used to build and evaluate the model on the cluster.
 
 ## Project Motivation<a name="motivation"></a>
 
