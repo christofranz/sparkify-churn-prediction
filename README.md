@@ -36,7 +36,11 @@ The most important files in this repository:
 
 * `Sparkify_model.py` - This jupyter notebook contains building machine learning models for churn prediction and the final evaluations.
 
-* ...
+* `data/feature_df.csv` - Csv-file with the data that was used as input for the feature selection.
+
+* `data/feature_selection_df.csv` - Csv-file with the result of the feature importance (voting) that is read in during the model building.
+
+* `data/sparkify-event-data.zip` - Zip-file containing the mini and medium sparkify event data as jsons which are used in this project.
 
 ## Results<a name="results"></a>
 
