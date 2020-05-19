@@ -51,6 +51,7 @@ The main findings of the code can be found at the ...
 ### Data Analysis
 
 Schema of the log entries for Sparkify:
+  
 ![DataSchema](images/data_schema.PNG)
 
 Section from the differences between the users who churn and who did not:
