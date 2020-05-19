@@ -42,9 +42,41 @@ The most important files in this repository:
 
 * `data/sparkify-event-data.zip` - Zip-file containing the mini and medium sparkify event data as jsons which are used in this project.
 
+* `images/*` - Visualizations
+
 ## Results<a name="results"></a>
 
 The main findings of the code can be found at the ...
+
+### Data Analysis
+
+Schema of the log entries for Sparkify:
+![DataSchema](images/data_schema.png)
+
+Section from the differences between the users who churn and who did not:
+![ExploratoryAnalysis](images/page_actions_difference_per_log.png)
+
+### Feature Engineering and Feature Selection
+
+Five different algorithms for feature selection are implemented and combined in a way that each algorithm votes for the importance of a feature. Only the features with a minimum voting are considered for further modeling.
+  
+![FeatureImportance](images/feature_selection.png)
+
+### Modeling and Evaluation
+
+The following machine learning models are implemented for customer churn prediction:
+  
+- Random Forest Classifier
+- Logistic Regression
+- Gradient-boosted Tree Classifier (GBTC)
+  
+All steps of the modeling are put in a machine learning pipeline that chains different transformers and the predictors one after each other. Numerical variables are scaled and dummy variables are created for categorical variables.
+  
+The parameters for each model are tuned with grid search and cross validation. The performance of the models is evaluated with the F1-Score because of the imbalanced dataset.
+  
+From all the models the random forest classifier achieves the best performance. The scores on the training and test set are shown below:
+
+todo: screenshot results
 
 ### Screenshots
 
