@@ -55,6 +55,7 @@ Schema of the log entries for Sparkify:
 ![DataSchema](images/data_schema.PNG)
 
 Section from the differences between the users who churn and who did not:
+  
 ![ExploratoryAnalysis](images/page_actions_difference_per_log.PNG)
 
 ### Feature Engineering and Feature Selection
