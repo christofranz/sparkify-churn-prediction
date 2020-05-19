@@ -51,16 +51,16 @@ The main findings of the code can be found at the ...
 ### Data Analysis
 
 Schema of the log entries for Sparkify:
-![DataSchema](images/data_schema.png)
+![DataSchema](images/data_schema.PNG)
 
 Section from the differences between the users who churn and who did not:
-![ExploratoryAnalysis](images/page_actions_difference_per_log.png)
+![ExploratoryAnalysis](images/page_actions_difference_per_log.PNG)
 
 ### Feature Engineering and Feature Selection
 
 Five different algorithms for feature selection are implemented and combined in a way that each algorithm votes for the importance of a feature. Only the features with a minimum voting are considered for further modeling.
   
-![FeatureImportance](images/feature_selection.png)
+![FeatureImportance](images/feature_selection.PNG)
 
 ### Modeling and Evaluation
 
