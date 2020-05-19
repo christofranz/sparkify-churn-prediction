@@ -46,7 +46,7 @@ The most important files in this repository:
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the ...
+The main findings of the code can be found at the [blog post available here](https://medium.com/@franzke.christoph/sparkify-churn-prediction-with-pyspark-on-big-data-e2f98746daa1).
 
 ### Data Analysis
 
@@ -76,8 +76,8 @@ All steps of the modeling are put in a machine learning pipeline that chains dif
 The parameters for each model are tuned with grid search and cross validation. The performance of the models is evaluated with the F1-Score because of the imbalanced dataset.
   
 From all the models the random forest classifier achieves the best performance. The scores on the training and test set are shown below:
-
-todo: screenshot results
+  
+![FeatureImportance](images/results.png)
 
 ### Screenshots
 
