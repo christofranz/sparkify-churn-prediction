@@ -5,8 +5,8 @@
 1. [Installation and Instructions](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
-4. [Results](#results)
-5. [Licensing](#licensing)
+4. [Results and Screenshots](#results)
+5. [Licensing, Authors and Acknowledgements](#licensing)
 
 ## Installation and Instructions<a name="installation"></a>
 
@@ -44,7 +44,7 @@ The most important files in this repository:
 
 * `images/*` - Visualizations
 
-## Results<a name="results"></a>
+## Results and Screenshots<a name="results"></a>
 
 The main findings of the code can be found at the [blog post available here](https://medium.com/@franzke.christoph/sparkify-churn-prediction-with-pyspark-on-big-data-e2f98746daa1).
 
@@ -79,8 +79,6 @@ The parameters for each model are tuned with grid search and cross validation. T
 From all the models the random forest classifier achieves the best performance. The scores on the training and test set are shown below:
   
 ![FeatureImportance](images/results.png)
-
-### Screenshots
 
 ## Licensing, Authors and Acknowledgements<a name="licensing"></a>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
